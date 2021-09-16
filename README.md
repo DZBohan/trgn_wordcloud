@@ -1,1 +1,1 @@
-# trgn_wordcloud
+# Wordcloud## About the app* The app is called **wordcloud**. * It summarizes some websites in the form of a wordcloud every day.## Installtion & Usage* git clone https://github.com/DZBohan/trgn_wordcloud.git## Dependencies* Generate Wordcloud Image* Web Server## Contact* zhangboh@usc.edu
