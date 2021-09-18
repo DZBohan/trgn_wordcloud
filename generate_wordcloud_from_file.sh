@@ -7,4 +7,4 @@ while read -r param1; do
     wget -crO ./current_pages/file$a.html $param1
     html2text.py ./current_pages/file$a.html >> ./current_pages/my_current.txt 
 done <./my_webpages.txt
-wordcloud_cli --mask ./mask.png --text ./current_pages/my_current.txt --imagefile ../../public_html/wordcloud.png
+wordcloud_cli --mask ./mask.png --text ./current_pages/my_current.txt --imagefile ~/public_html/wordcloud.png
